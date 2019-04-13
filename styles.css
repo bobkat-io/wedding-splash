@@ -41,7 +41,7 @@ h1, h2 {
   width: 1000px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;;
+  align-items: center;
 }
 
 .nav a {

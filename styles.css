@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Josefin Slab', serif;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.content-wrapper {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.content-wrapper::after {
+  content: "";
+  background-image: url(background.jpg);
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  background-position: center;
+}
+
+.nav-wrapper {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.nav a.disabled {
+  color: #9e9e9e;
+}
+
+.splash {
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.splash-content {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer div {
+  margin: 5px;
+}
+
+.splash-content h1 {
+  margin: 10px;
+}
+
+.monogram {
+  height: 300px;
+}

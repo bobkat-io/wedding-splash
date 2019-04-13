@@ -50,6 +50,7 @@ h1, h2 {
   font-weight: bold;
   margin-block-start: 1em;
   margin-block-end: 1em;
+  align-items: center;
 }
 
 .nav a.disabled {

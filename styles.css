@@ -60,6 +60,14 @@ h1, h2 {
   color: #9e9e9e;
 }
 
+.disabled:hover span {
+  display:none
+}
+
+.disabled:hover:before {
+    content: 'Coming Soon';
+}
+
 .splash {
   height: 100%;
   padding-top: 60px;
